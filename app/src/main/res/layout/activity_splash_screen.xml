@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:theme="@style/ThemeOverlay.Fda.FullscreenContainer"
+    tools:context=".Splash_screen">
+
+
+    <ImageView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="280dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:keepScreenOn="false"
+        app:srcCompat="@drawable/ic_logo"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:paddingTop="170dp"
+        android:text="Food &amp; Drug Authenticator"
+        android:textAlignment="center"
+        android:textColor="@color/textcolor"
+        android:textSize="20sp" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="@style/Widget.Theme.Fda.ButtonBar.Fullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
+

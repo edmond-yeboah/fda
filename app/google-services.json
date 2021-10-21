@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "342946703973",
+    "project_id": "fdaapp-bcb7e",
+    "storage_bucket": "fdaapp-bcb7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342946703973:android:4103a8b20a6fd8ac2f748c",
+        "android_client_info": {
+          "package_name": "com.example.fda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342946703973-rl2oe69hj7krtsljt797do4lln59scf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo7sn_LrAq8ReY6qSnFnfwIwJZ-DVFyAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342946703973-rl2oe69hj7krtsljt797do4lln59scf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
